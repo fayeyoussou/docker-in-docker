@@ -31,6 +31,7 @@ services:
     ports:
       - 8085:8080
       - 50000:50000
+      - 8087:8087
     environment:
       #Makes the Docker in Docker container available as the hostname docker within the jenkins network
       DOCKER_HOST: tcp://docker:2376
