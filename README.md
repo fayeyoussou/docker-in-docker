@@ -1,3 +1,5 @@
-![work status](https://img.shields.io/badge/work-on%20progress-red.svg) 
-![Ngor Seck](https://img.shields.io/badge/Ngor%20Seck-Java-green) 
-![Java](https://img.shields.io/badge/Ngor%20Seck-Docker)
+#command pre-install
+sudo apt-get upgrade
+sudo apt-get install docker.io
+sudo usermod -aG docker root
+sudo apt-get install docker-compose
